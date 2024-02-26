@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'ARMPiplelin-rg'
     location: 'Central US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/theseha/ARMPiplelin-repo/main/create_web_app'
+    csmFileLink: 'https://raw.githubusercontent.com/theseha/ARMPiplelin-repo/main/create_web_app/azuredeploy.json'
     overrideParameters: '-projectName myarmpipeline'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
